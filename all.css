@@ -1,0 +1,62 @@
+/* Header */
+#header {
+    height: 60px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;  /* content vertically */ 
+}
+
+#header i{
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+#header-text {
+    color:black;
+    margin-top: 5px;
+}
+
+/*Source Language and Text Input Area*/
+#inputarea{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color:#f8f9fa;
+}
+
+/*Target Language and Output Area*/
+#outputarea{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color:#f8f9fa;
+}
+
+/*Flags Area */
+
+#imagesDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width:100%;
+}
+
+
+#imagesDiv img {   
+    margin: 0 100px;
+    width: 30%;
+}
+
+#translationArrow {
+    width: 100px;
+    margin-right:20px;
+}
+
+/* Translate Button*/
+#translateBtn{
+    margin-top: 20px;
+    width:120px;
+}
+
+
